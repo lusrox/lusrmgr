@@ -1,5 +1,8 @@
 # lusrmgr
 
+Download latest version from Releases:       
+https://github.com/lusrdex/lusrmgr/releases/tag/v1.6.3
+
 ## Introduction
 
 lusrmgr is a Microsoft Management Console (MMC) snap-in used for managing local users and groups on Windows systems. It provides administrators with a structured interface to control access, enforce security policies, and maintain user-related configurations without relying on command-line tools. The utility is typically accessed through the Local Users and Groups console and is available on professional and enterprise editions of Windows.
@@ -32,4 +35,4 @@ Custom groups can be created to align with specific operational roles. For insta
 
 lusrmgr also supports modifying group membership dynamically. Adding or removing users from groups immediately updates their access rights, which is useful in scenarios like role changes or temporary privilege escalation. For example, granting a developer temporary administrative access for debugging can be achieved by adding them to the Administrators group and removing them afterward.
 
-Effective group management also strengthens security auditing processes. By regularly reviewing group memberships, administrators can quickly identify users with access to sensitive system resources, streamline compliance reviews, and minimize the risk of privilege creep caused by the accumulation of unnecessary permissions over time.
+Proper use of groups improves security oversight by providing administrators with a clear view of user access rights. Monitoring group memberships makes it easier to verify permissions, support compliance requirements, and prevent privilege creep by ensuring that users retain only the access they actually need.
