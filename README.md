@@ -32,4 +32,4 @@ Custom groups can be created to align with specific operational roles. For insta
 
 lusrmgr also supports modifying group membership dynamically. Adding or removing users from groups immediately updates their access rights, which is useful in scenarios like role changes or temporary privilege escalation. For example, granting a developer temporary administrative access for debugging can be achieved by adding them to the Administrators group and removing them afterward.
 
-Effective use of groups also enhances security auditing. By reviewing group memberships, administrators can quickly assess who has access to critical system functions. This simplifies compliance checks and reduces the risk of privilege creep, where users accumulate unnecessary permissions over time.
+Effective group management also strengthens security auditing processes. By regularly reviewing group memberships, administrators can quickly identify users with access to sensitive system resources, streamline compliance reviews, and minimize the risk of privilege creep caused by the accumulation of unnecessary permissions over time.
